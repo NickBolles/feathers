@@ -121,5 +121,7 @@ module.exports = init;
 // Exposed Modules
 Object.assign(module.exports, {
   default: init,
-  Verifier: DefaultVerifier
+  Verifier: DefaultVerifier,
+  defaultHandler: defaultHandler,
+  defaultErrorHandler: defaultErrorHandler
 });
